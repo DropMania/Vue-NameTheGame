@@ -3,7 +3,7 @@ export default {
         let formData = new FormData();
         formData.append('section',section);
         formData.append('query',query)
-        let response = await fetch('http://robin-pc/namethegame/gameApiProxy.php',
+        let response = await fetch('https://dropmania.de/namethegame/gameApiProxy.php',
         { 
             body: formData,
             method: 'POST'
